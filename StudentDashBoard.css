@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+#bg
+{
+    height: 100%;
+    background-image: url(studentdashboard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-origin:inherit;
+    display: flex;
+    flex-direction:row;
+   justify-content: space-between;
+}
+#overlay
+{
+    display: flex;
+    flex-direction:row;
+   justify-content: space-between;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+#button
+{
+    height: 80%;
+    width: 20%;
+    margin-left: 8%;
+    margin-top: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+#button hr
+{
+    margin-top: 0px;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);;
+}
+#content hr
+{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);;
+}
+#button button
+{
+    height: 38px;
+    width: 160px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 1px;
+}
+#button button:hover
+{
+    background-color:rgb(3, 250, 12);
+    color:white;
+    cursor: pointer;
+}
+#Upload-assignment
+{
+    height: 80%;
+    width: 60%;
+    margin-top: 5%;
+    border: 2px solid rgb(255, 255, 255);;
+    border-radius: 15px;
+    margin-right: 120px;
+}
+#Upload-assignment h2
+{
+    text-align: center;
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+}
+#Upload-assignment select ,input[type='text' ],input[type='date' ],input[type='file' ]
+{
+    width: 25%;
+    padding: 7px 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 360px;
+    margin-top:-25px;
+    margin-bottom: 35px;
+}
+#file
+{
+    background-color: white;
+}
+#lbl
+{
+    display: flex;
+    margin-top:23px;
+    margin-left: 180px;
+    font-size: 20px;
+    font-family: 'arial';
+    font-weight: 50px;
+    color: rgb(255, 255, 255);
+}
+#Upload-assignment button
+{
+    height: 35px;
+    width: 80px;
+    margin-left: 490px;
+    margin-top: 0%;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+#Upload-assignment button:hover
+{
+    background-color:rgb(3, 250, 12);
+    color: white;
+    cursor: pointer;
+}

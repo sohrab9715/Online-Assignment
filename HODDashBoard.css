@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+#container
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+   justify-content: space-between;
+   background-image: url(https://images.unsplash.com/photo-1532618793091-ec5fe9635fbd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+   background-size: cover;
+    background-position:center;
+}
+#overlay
+{
+    display: flex;
+    flex-direction:row;
+   justify-content: space-between;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+#button
+{
+    height: 80%;
+    width: 20%;
+    margin-left: 8%;
+    margin-top: 5%;
+    border: 2px solid rgb(255, 255, 255);;
+    border-radius: 15px;
+}
+#button h2
+{
+   margin-left: 100px;
+   color:white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+  
+}
+#button hr
+{
+    margin-top: 9px;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);;
+}
+#content hr
+{
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);;
+}
+#button button
+{
+    height: 38px;
+    width: 160px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 1px;
+}
+#Upload-assignment input[type='submit']
+{
+    height: 38px;
+    width: 160px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 1px;
+}
+#button button:hover
+{
+    background-color:rgb(3, 250, 12);
+    color:white;
+    cursor: pointer;
+}
+#Upload-assignment
+{
+    height: 80%;
+    width: 60%;
+    margin-top: 5%;
+    border: 2px solid rgb(255, 255, 255);;
+    border-radius: 15px;
+    margin-right: 120px;
+}
+#Upload-assignment h2
+{
+    text-align: center;
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+}
+#Upload-assignment select ,input[type='text' ],input[type='password' ],input[type='email' ]
+{
+    width: 25%;
+    padding: 7px 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    margin-left: 360px;
+    margin-top:-25px;
+    margin-bottom: 35px;
+}
+
+#lbl
+{
+    display: flex;
+    margin-top:23px;
+    margin-left: 180px;
+    font-size: 20px;
+    font-family: 'arial';
+    font-weight: 50px;
+    color: rgb(255, 255, 255);
+}
+#Upload-assignment button
+{
+    height: 35px;
+    width: 80px;
+    display: flex;
+    justify-content: center;   
+    margin-left: 680px;
+    margin-top: -8%;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+#Upload-assignment button:hover
+{
+    background-color:rgb(3, 250, 12);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+        <div id="bg">
+            <div id="overlay">
+                <div class="details">
+                        <form action="StudentLogin.php" method="POST">
+                                <h3 style="text-align: center">Student</h3>
+                                <hr>
+                            <label class="lbl">Registration :</label> 
+                                <input type="text" name="registration" placeholder="Enter Registration No" required>
+        
+                            <label class="lbl"> Password :</label>
+                                <input type="password" name="password" placeholder="***********" required>
+                                <a  style="margin-left: 240px" href="Forget_Page.php">Forgate password ?</a><br>
+        
+                                <input type="submit" value="Log in">
+                                <p>Don't have an account ? <a href="Student_Registration.html">Signup here</a></p>
+                        </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

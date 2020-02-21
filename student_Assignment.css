@@ -1,0 +1,59 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+#box
+{
+    width: 30%;
+    height: 28%;
+    background-color:#dadada;
+    margin-left: 400px;
+    margin-top: 20px;
+    border: 1px solid;
+}
+#lbl
+{
+    padding-left: 33px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family:'Montserrat';
+}
+#box select
+{
+    margin-top: 20px;
+    width: 150px;
+    height: 32px;
+    border-radius: 4px;
+ padding-left: 30px;
+}
+#subcode
+{
+   margin-left: 30px;
+}
+#AssNo
+{
+    margin-left: 15px;
+}
+#box input[type=submit]
+{
+   height: 30px;
+   width: 76px;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    margin-left: 170px;
+
+}
+#box input[type=submit]:hover
+{
+    background-color:rgb(3, 250, 12);
+    color:white;
+    cursor: pointer;
+}
